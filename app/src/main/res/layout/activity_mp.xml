@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <tech.nicesky.camera2capture.AutoFitTextureView
+            android:id="@+id/pr1"
+            android:layout_width="0dp"
+            android:minWidth="100dp"
+            android:layout_weight="1"
+            android:layout_height="300dp"/>
+        <tech.nicesky.camera2capture.AutoFitTextureView
+            android:minWidth="100dp"
+            android:id="@+id/pr2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="300dp"/>
+        <tech.nicesky.camera2capture.AutoFitTextureView
+            android:minWidth="100dp"
+            android:id="@+id/pr3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="300dp"/>
+        <tech.nicesky.camera2capture.AutoFitTextureView
+            android:minWidth="100dp"
+            android:id="@+id/pr4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="300dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_preview1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_preview2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_preview3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_preview4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

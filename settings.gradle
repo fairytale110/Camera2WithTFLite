@@ -1,0 +1,4 @@
+rootProject.name='Camera2Client'
+include ':app'
+include ':camera2capture'
+include ':tensorflowlite'
